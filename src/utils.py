@@ -1,0 +1,1 @@
+# Any functionality which are common to entire application can be written here

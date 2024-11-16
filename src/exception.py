@@ -11,9 +11,9 @@ def error_message_detail(error, error_detail:sys):
     )
     return error_message
 
-# We create our own customer exception class which inherits the exception class
+# We create our own custom exception class which inherits the exception class
 # It is populated with above function message and displays when error occurs
-class CustomerException(Exception):
+class CustomException(Exception):
 
     def __init__(self, error_message, error_detail:sys):
         super().__init__(error_message)
